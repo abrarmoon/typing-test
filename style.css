@@ -1,0 +1,90 @@
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Test area styles */
+  .test {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .words {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    color: #333333;
+    border: none;
+    background-color: #f5efef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  /* Button styles */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #00bfff;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #009acd;
+  }
+  
+  /* Result area styles */
+  .result {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .result-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .result-score {
+    font-size: 48px;
+    color: #00bfff;
+    font-weight: bold;
+  }
+  
